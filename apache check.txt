@@ -1,0 +1,28 @@
+
+package com.yangboao.check;
+import junit.framework.checkCase;
+
+public class Yangcheck2 extends checkCase {
+
+protected void setUp() throws Exception {
+super.setUp();
+}
+
+protected void tearDown() throws Exception {
+super.tearDown();
+}
+public void checkYang()
+    {
+     Yang a=new Yang();
+        a.getnum();
+        a.count();
+       Yang b=new Yang();
+        b.getnum();
+        b.count();
+      Yang c=new Yang();
+        c.getnum();
+        c.count();
+        assertTrue( true );
+    } 
+
+}
